@@ -13,7 +13,7 @@ void gotoxy(int x, int y)
 
 class Character {
 public:
-	string name = "¡Ú";
+	string name = "O";
 	int myX = 5, myY = 5;
 	void move(int vec) {
 		switch (vec)
@@ -31,11 +31,11 @@ public:
 		}
 	}
 	void eraser() {
-		gotoxy(myX * 2, myY * 2);
-		cout << "  ";
+		gotoxy(myX, myY);
+		cout << " ";
 	}
 	void print() {
-		gotoxy(myX * 2, myY * 2);
+		gotoxy(myX, myY);
 		cout << name;
 	}
 };
