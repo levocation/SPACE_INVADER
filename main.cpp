@@ -12,7 +12,7 @@ void gotoxy(int x, int y) // gotoxy ㅇㅇ
 	
 	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
 	// SetConsoleCursorPosition : 커서 위치를 이동하는 함수
-	// GetStdHandle : 어디에서 커서를 옮길 것인가?
+	// GetStdHandle : 어느 화면에서 커서를 옮길 것인가?
 	// STD_OUTPUT_HANDLE : 니가 보고 있는 콘솔창이요
 	// pos : ㅇㅇ
 }
