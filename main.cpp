@@ -1,4 +1,4 @@
-#include <iostream> // C++에는 printf 말고 cout이 있는데 그거 쓰게 해줌
+#include <iostream> // C++에는 printf 말고 cout이 있는데 그거 쓰게 해줌. stdio.h도 포함되어있으니 걱정 ㄴ
 #include <conio.h> // getAsyncKeyState, getch 쓰게 해주는거
 #include <Windows.h> // gotoxy의 원동력
 #include <string> // 얘 없으면 string 자유자재로 못 씀
