@@ -68,6 +68,9 @@ int main() {
 		if (GetAsyncKeyState(VK_DOWN)) me.move(2); // 아래쪽 방향키
 		if (GetAsyncKeyState(VK_LEFT)) me.move(3); // 왼쪽 방향키
 		if (GetAsyncKeyState(VK_RIGHT)) me.move(4); // 오른쪽 방향키
+
+		// GetAsyncKeyState를 저렇게 쓰면 다중키 인식이 됨
+		// 대각선 움직임 가능. getch()는 대각선 움직임이 불가능
 		
 		me.print();
 		Sleep(50); // 50ms(1000ms = 1초, 50ms = 0.02초)만큼 딜레이를 준다.
