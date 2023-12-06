@@ -25,7 +25,7 @@ public: // public: 기호 밑으로는 전부 접근권한이 public
 	void move(int vec) {
 		switch (vec) // 이거 모르면 도제학생 아님
 		{
-		case 1: myY--;
+		case 1: myY--; // 엄밀히 따지면 this->myY--; 인데 포인터 모르니까 생략
 			break;
 		case 2: myY++;
 			break;
